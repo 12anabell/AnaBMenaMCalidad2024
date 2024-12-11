@@ -32,7 +32,7 @@ jobs:
           command: mvn -Dtest=CalculadoraTest test
       - run:
           name: Ejecutando pruebas mockito
-          command: mvn -Dtest=com.fca.calidad.service.UserServiceTest test
+          command: mvn -Dtest=com.fca.calidad.servicio.UserServiceTest test
       - run:
           name: Ejecutando pruebas katalon
           command: mvn -Dtest=com.fca.calidad.funcionales.AgregarTest,com.fca.calidad.funcionales.BorrarTest,com.fca.calidad.funcionales.EditarTest test
